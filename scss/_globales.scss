@@ -1,0 +1,96 @@
+header{
+    background-color: $color-primario;
+    padding: $espaciado-general / 4px 0;
+}
+
+body {
+    font-family: $fuente-principal;
+}
+
+.nav-link{
+    color: $color-secundario;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
+
+.nav-link.active {
+    color: $color-secundario;
+    background-color: $color-terciario;
+}
+
+.navbar-toggler {
+    background-color: $color-terciario;
+    margin-bottom: $espaciado-general + 10px;
+}
+
+.carousel-item img {
+    height: 250px;
+}
+
+@media (min-width: $tablet) {
+    .carousel-item img {
+        height: 70hv;
+    }
+}
+
+@media (min-width: $desktop) {
+    .carousel-item img {
+        height: 80vh;
+    }
+}
+
+@media (min-width: $desktop) {
+    .carousel-item img {
+        height: 90hv;
+    }
+}
+
+
+h1, h2 {
+    font-family: $fuente-principal;
+    color: $color-secundario;
+    text-align: center;
+    text-decoration:underline;
+    margin-top: $espaciado-general *2;
+}
+
+.logo{
+    width: $logo;
+    height: $logo;
+    display: block;
+    margin: 0 auto;
+}
+
+.letra-grande{
+    font-size: $fuente-media + 20px; 
+}
+.letra-menos{
+    font-size: $fuente-media;
+}
+
+
+.fondo-imagen {
+    background-color: $color-terciario;
+
+}
+
+.px{
+    font-size: $fuente-chica + 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-size: $fuente-media;
+}
+
+footer{
+    margin-top: $espaciado-general *3;
+    @include flex-column;
+    
+}
+

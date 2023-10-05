@@ -1,0 +1,147 @@
+header {
+  background-color: rgba(207, 205, 73, 0.52);
+  padding: 5 0;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.nav-link {
+  color: darkgoldenrod;
+}
+.nav-link:hover {
+  color: darkgoldenrod;
+}
+
+.nav-link.active {
+  color: darkgoldenrod;
+  background-color: beige;
+}
+
+.navbar-toggler {
+  background-color: beige;
+  margin-bottom: 30px;
+}
+
+.carousel-item img {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 70hv;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 80vh;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 90hv;
+  }
+}
+h1, h2 {
+  font-family: "roboto", sans-serif;
+  color: darkgoldenrod;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.letra-grande {
+  font-size: 40px;
+}
+
+.letra-menos {
+  font-size: 20px;
+}
+
+.fondo-imagen {
+  background-color: beige;
+}
+
+.px {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria-2 img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: beige;
+  display: inline;
+  width: 600px;
+}
+
+.parrafo-contacto {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .main-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+}
+iframe {
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+form .campos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form .botones-form {
+  background-color: form .botones-form color-secundario;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

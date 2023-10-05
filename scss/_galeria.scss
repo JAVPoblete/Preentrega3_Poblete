@@ -1,0 +1,7 @@
+.galeria-2 img {
+    @include flex-column;
+    gap: $fuente-media;
+    background-color: $color-terciario;
+    display: inline;
+    width: 600px;
+}
